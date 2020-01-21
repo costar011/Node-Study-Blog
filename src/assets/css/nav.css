@@ -1,0 +1,64 @@
+@keyframes createNav {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes navHover {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  width: 100;
+  overflow: hidden;
+  align-items: flex-start;
+}
+
+.box .box__content {
+  margin: 80px 155px;
+  margin-bottom: 150px;
+}
+
+.box .box__nav {
+  background-color: #25ccf7;
+  width: 15%;
+  height: 100vh;
+  flex-direction: column;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.nav {
+  color: #273c75;
+  margin: 40px;
+  animation: createNav 0.5s forwards;
+}
+
+.box .nav__items {
+  margin-left: 25px;
+  font-size: 20px;
+  margin: 25px;
+  padding: 20px;
+  border-bottom: #ffffff solid 2px;
+}
+
+.nav .nav__item:hover {
+  animation: navHover 0.4s ease-in-out;
+}
+
+.box .box__nav .nav .nav__items a {
+  text-decoration: none;
+  color: #273c75;
+}

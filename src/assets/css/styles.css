@@ -1,0 +1,10 @@
+@import "./nav.css";
+@import "./reset.css";
+@import "./home.css";
+@import "./miniBoard.css";
+
+body {
+  font-family: "Patua One", cursive;
+  overflow: hidden;
+  background-image: url(../img/so-white.png);
+}
