@@ -7,7 +7,10 @@
 
 .h_box .h_box__col-1 {
   width: 900px;
-  height: 50vh;
+  height: 780px;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
 }
 
 .h_box .h_box__col-2 {
@@ -31,4 +34,41 @@
 .h_box__col-2 .col-2__sub-2 .sub-2__title {
   font-size: 20px;
   opacity: 0.7;
+}
+
+.h_box .h_box__col-1 .col-1__box-1 {
+  width: 200px;
+  height: 300px;
+  background-color: rgba(72, 219, 251, 0.4);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  padding: 20px;
+  animation: initStart 1s forwards;
+}
+
+.h_box .h_box__col-1 .col-1__box-2 {
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  padding: 20px;
+  background-color: skyblue;
+  margin-top: 30px;
+  margin-left: 5px;
+  animation: initStart 1s forwards;
+}
+
+.h_box .h_box__col-1 .col-1__box-3 {
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  padding: 20px;
+  background-color: rgb(69, 170, 233);
+  margin-top: 30px;
+  margin-left: 200px;
+  animation: initStart 1s forwards;
 }
